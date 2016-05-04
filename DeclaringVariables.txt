@@ -1,0 +1,15 @@
+// Variables declaration - do not modify                     
+    private javax.swing.JComboBox ComboBoxMonth;
+    private javax.swing.JButton btnClear;
+    private javax.swing.JButton btnSave;
+    private javax.swing.JButton btnSearch;
+    private javax.swing.JButton btnTotal;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JTextField txtBills;
+    private javax.swing.JTextField txtFood;
+    private javax.swing.JTextField txtOthers;
+    private javax.swing.JTextField txtTotal;
+// End of variables declaration
