@@ -1,0 +1,153 @@
+//customising the combobox.
+        btnClear.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        btnClear.setForeground(new java.awt.Color(255, 0, 153));
+        btnClear.setText("CLEAR");
+        btnClear.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnClearActionPerformed(evt);
+            }
+        });
+        //customising the clear button.
+        btnSave.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        btnSave.setForeground(new java.awt.Color(255, 0, 153));
+        btnSave.setText("SAVE");
+        btnSave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSaveActionPerformed(evt);
+            }
+        });
+
+        btnTotal.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnTotal.setForeground(new java.awt.Color(102, 0, 102));
+        btnTotal.setText("TOTAL");
+        btnTotal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTotalActionPerformed(evt);
+            }
+        });
+        //customising the total button.
+        
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel1.setText("MONTH");
+        
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel2.setText("FOOD");
+
+        txtFood.setBackground(new java.awt.Color(255, 153, 204));
+        txtFood.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtFood.setForeground(new java.awt.Color(255, 255, 0));
+        txtFood.setToolTipText("");
+        txtFood.setCaretColor(new java.awt.Color(204, 0, 204));
+        txtFood.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        txtFood.setDisabledTextColor(new java.awt.Color(0, 204, 255));
+        txtFood.setSelectedTextColor(new java.awt.Color(51, 0, 255));
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel3.setText("BILLS");
+
+        txtBills.setBackground(new java.awt.Color(255, 153, 204));
+        txtBills.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtBills.setForeground(new java.awt.Color(255, 255, 0));
+        txtBills.setSelectedTextColor(new java.awt.Color(0, 0, 204));
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel4.setText("OTHERS");
+
+        txtOthers.setBackground(new java.awt.Color(255, 153, 204));
+        txtOthers.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtOthers.setForeground(new java.awt.Color(255, 255, 0));
+        txtOthers.setSelectedTextColor(new java.awt.Color(0, 0, 255));
+
+        txtTotal.setEditable(false);
+        txtTotal.setBackground(new java.awt.Color(255, 153, 204));
+        txtTotal.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtTotal.setForeground(new java.awt.Color(255, 255, 0));
+
+        btnSearch.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        btnSearch.setForeground(new java.awt.Color(255, 0, 153));
+        btnSearch.setText("SEARCH");
+        btnSearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSearchActionPerformed(evt);
+            }
+        });//customising the combobox.
+        btnClear.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        btnClear.setForeground(new java.awt.Color(255, 0, 153));
+        btnClear.setText("CLEAR");
+        btnClear.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnClearActionPerformed(evt);
+            }
+        });
+        //customising the clear button.
+        btnSave.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        btnSave.setForeground(new java.awt.Color(255, 0, 153));
+        btnSave.setText("SAVE");
+        btnSave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSaveActionPerformed(evt);
+            }
+        });
+
+        btnTotal.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnTotal.setForeground(new java.awt.Color(102, 0, 102));
+        btnTotal.setText("TOTAL");
+        btnTotal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTotalActionPerformed(evt);
+            }
+        });
+        //customising the total button.
+        
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel1.setText("MONTH");
+        
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel2.setText("FOOD");
+
+        txtFood.setBackground(new java.awt.Color(255, 153, 204));
+        txtFood.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtFood.setForeground(new java.awt.Color(255, 255, 0));
+        txtFood.setToolTipText("");
+        txtFood.setCaretColor(new java.awt.Color(204, 0, 204));
+        txtFood.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        txtFood.setDisabledTextColor(new java.awt.Color(0, 204, 255));
+        txtFood.setSelectedTextColor(new java.awt.Color(51, 0, 255));
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel3.setText("BILLS");
+
+        txtBills.setBackground(new java.awt.Color(255, 153, 204));
+        txtBills.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtBills.setForeground(new java.awt.Color(255, 255, 0));
+        txtBills.setSelectedTextColor(new java.awt.Color(0, 0, 204));
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel4.setText("OTHERS");
+
+        txtOthers.setBackground(new java.awt.Color(255, 153, 204));
+        txtOthers.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtOthers.setForeground(new java.awt.Color(255, 255, 0));
+        txtOthers.setSelectedTextColor(new java.awt.Color(0, 0, 255));
+
+        txtTotal.setEditable(false);
+        txtTotal.setBackground(new java.awt.Color(255, 153, 204));
+        txtTotal.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        txtTotal.setForeground(new java.awt.Color(255, 255, 0));
+
+        btnSearch.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        btnSearch.setForeground(new java.awt.Color(255, 0, 153));
+        btnSearch.setText("SEARCH");
+        btnSearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSearchActionPerformed(evt);
+            }
+        });
